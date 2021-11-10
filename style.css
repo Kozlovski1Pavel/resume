@@ -1,0 +1,314 @@
+.resume{
+  position: relative;
+  width: 595px;
+  height: 842px;
+  background: #FFFFFF;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header{
+  width: 575px;
+  height: 155px;
+  padding-top: 20px;
+  padding-right: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.top{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  height: 60px;
+}
+
+.Name{
+  width: 210px;
+  text-align: left;
+  font-family: Arial;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 40px;
+  display: flex;
+  align-items: center;
+  color: #000000;
+}
+
+.detail{
+  width: 345px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 2px 10px;
+  position: static;
+  background: #125EFF;
+}
+
+.title1{
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 28px;
+  /* identical to box height, or 156% */
+
+  display: flex;
+  align-items: center;
+
+  color: #FFFFFF;
+}
+
+.personalinfo{
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  grid-template-columns: 115px 115px 115px;
+  grid-template-rows: 28px;
+  align-items: center;
+  color: #FFFFFF;
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 8px;
+  line-height: 28px;
+}
+
+.mail{
+display: flex;
+flex-direction: reverse;
+}
+
+.mailicon{
+  margin-right: 5px;
+    width: 20px;
+    height: 20px;
+    margin-bottom: auto;
+    margin-top: auto;
+}
+
+.site{
+  display: flex;
+  flex-direction: reverse;
+  }
+  
+  .siteicon{
+    margin-right: 5px;
+    width: 20px;
+    height: 20px;
+    margin-bottom: auto;
+    margin-top: auto;
+  }
+
+  .tel{
+    display: flex;
+    flex-direction: reverse;
+    }
+    
+    .telcon{
+      margin-right: 5px;
+      width: 20px;
+      height: 20px;
+      margin-bottom: auto;
+      margin-top: auto;
+    }
+    
+    .highlight1{
+      margin-top: 10px;
+      position: static;
+      width: 193px;
+      height: 28px;
+      left: 0px;
+      top: 2px;
+
+      font-family: Arial;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 18px;
+      line-height: 28px;
+      /* identical to box height, or 156% */
+
+      display: flex;
+      align-items: center;
+
+      color: #636363;
+
+    }
+    .highlight2{
+      position: static;
+      width: 555px;
+      height: 56px;
+      left: 0px;
+      top: 32px;
+      font-family: Arial;
+      font-style: normal;
+      font-size: 18px;
+      line-height: 28px;
+/* or 156% */
+align-items: center;
+
+color: #000000;
+    }
+
+    .left{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 0px;
+
+      position: static;
+      width: 345px;
+      height: 645px;
+      left: 0px;
+      top: 5px;
+    }
+
+    .experience{
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      padding: 0px;
+
+      position: static;
+      height: 485px;
+      left: 0px;
+      top: 0px;
+      margin-right: auto;
+    }
+
+    .topproject{
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      padding: 0px;
+
+      position: static;
+      height: 160px;
+      left: 0px;
+      top: 485px;
+      margin-right: auto;
+    }
+    
+    .right{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 0px;
+
+      position: static;
+      width: 170px;
+      height: 630px;
+      left: 405px;
+      top: 5px;
+    }
+
+    .education{
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      padding: 0px;
+
+      position: static;
+      height: 150px;
+      left: 0px;
+      top: 0px;
+      margin-right: auto;
+    }
+
+    .tools{
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      padding: 0px;
+
+      position: static;
+      height: 470px;
+      left: 0px;
+      top: 160px;
+      margin-right: auto;
+    }
+
+    .title{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      padding: 0px;
+
+      position: static;
+      width: 170px;
+      height: 40px;
+      left: 0px;
+      top: 0px;
+      margin-right: auto;
+
+      font-family: Arial;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 28px;
+/* identical to box height, or 175% */
+
+display: flex;
+align-items: center;
+
+/* Main Blue */
+
+color: #125EFF;
+    }
+
+    .indicator{
+      position: static;
+      width: 5px;
+      height: 40px;
+      left: 0px;
+      top: 0px;
+      background: #125EFF;
+    }
+
+    .body{
+      display: flex;
+      flex-direction: row;
+      align-items: flex-start;
+      padding: 5px 0px;
+
+      position: absolute;
+      width: 575px;
+      height: 655px;
+      left: 0px;
+      top: 185px;
+
+    }
+
+    .text{
+      font-family: Arial;
+font-style: normal;
+font-weight: normal;
+font-size: 10px;
+line-height: 15px;
+/* or 150% */
+    }
+
+  h2{
+      font-family: Arial;
+font-style: normal;
+font-weight: normal;
+font-size: 8px;
+/* or 350% */
+
+display: flex;
+align-items: center;
+
+color: #636363;
+    }
+
+    .text2{
+      font-family: Arial;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 10px;
+      line-height: 15px;
+      margin-right: 80px;
+    }
